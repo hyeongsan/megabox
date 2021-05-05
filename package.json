@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "san",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "https://github.com/hyeongsan/megabox.git"
 }
