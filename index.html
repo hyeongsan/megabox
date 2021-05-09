@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <link rel="shortcut icon" href="icons/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="https://s.pstatic.net/static/www/mobile/edit/2019/0520/mobile_android_7272.png" />
@@ -23,6 +25,8 @@
     <script src="js/jquery.min_1.12.4.js" defer></script>
     <script src="js/modernizr-custom.js" defer></script>
     <script src="js/ie-checker.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header id="header">
@@ -35,6 +39,10 @@
                             <strong><img src="./img/logo-sub.png" alt="LIFE THEATER"></strong>
                         </a>    
                     </h1>
+                    <nav id="mNav">
+                        <h2 class="ir_so">메가박스 전체메뉴</h2>
+                        <a href="#" class="ham"><span></span></a>
+                    </nav>
                     <nav class="nav">
                         <ul class="clearfix">
                             <li><a href="#">영화</a></li>
@@ -50,5 +58,70 @@
             </div>
         </div>
     </header>
+<!-- header-->
+
+<section id="banner">
+    <h2 class="ir_so">최신 영화 소식</h2>
+<div class="banner_menu">
+<div class="container">
+    <div class="row">
+        <div class="bm_left">
+            <ul>
+                <li class="total"><a href="#"><i class="fas fa-bars"></i> 전체메뉴</a></li>
+                <li class="line"><a href="#">필름 소사이어티</a></li>
+                <li><a href="#">클래식 소사이어티</a></li>
+            </ul>
+        </div>
+        <div class="bm_right">
+            <ul>
+                <li class="line"><a href="#">고객센터</a></li>
+                <li class="line"><a href="#">멤버쉽</a></li>
+                <li><a href="#">VIP</a></li>            
+            </ul>
+            <ul>
+                <li class="white"><a href="#">상영시간표</a></li>
+                <li class="purple"><a href="#">빠른예매</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="slider">
+    <div class="swiper-container">
+         <div class="swiper-wrapper">
+             <div class="swiper-slide ss1">
+                 <div class="container">
+                     <div class="row">
+                         <h3>캡틴마블 <em> Captain Marvel </em></h3>
+                         <p>새로운 히어로, 어벤져스의 희망 </p>
+                     </div>
+                 </div>
+             </div>
+             <div class="swiper-slide ss2">
+                 <div class="container">
+                    <div class="row">
+                        <h3>캡틴마블 <em> Captain Marvel </em></h3>
+                        <p>새로운 히어로, 어벤져스의 희망 </p>
+                    </div>
+                 </div>
+             </div>
+             <div class="swiper-slide ss3">
+                 <div class="container">
+                    <div class="row">
+                        <h3>캡틴마블 <em> Captain Marvel </em></h3>
+                        <p>새로운 히어로, 어벤져스의 희망 </p>
+                    </div>
+                 </div>
+             </div>
+         </div>
+         <div class="swiper-pagination"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+</section>
+
+<!--banner-->
 </body>
 </html>
