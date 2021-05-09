@@ -261,6 +261,7 @@
 .slider .swiper-slide h3 em{font-size: 28px;}
 .slider .swiper-slide p{font-size: 12px; padding-top: 23px;}
 .slider .swiper-slide h3:after{bottom : -15px}
+
 .banner_menu .bm_right li.white a {
   font-size: 14px;
   padding:3px 5px 5px 5px;
@@ -274,6 +275,7 @@
   color: #fff;
   background: rgba(0, 0, 0, 0.6);
   border-color: #fff;
+  
 }
 .swiper-pagination-bullet {
   width: 13px !important; height:13px !important;
